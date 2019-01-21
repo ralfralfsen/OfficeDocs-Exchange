@@ -25,7 +25,7 @@ Outlook 2016 provides two basic connectivity modes when you are connected to Exc
 Cached Exchange Mode gives users a seamless online and offline Outlook experience by caching the user's mailbox and the Offline Address Book (OAB) locally. With Cached Exchange Mode, which is the default setting for users, Outlook no longer depends on continuous network connectivity for access to user information. When a user is connected, Outlook continuously updates users' mailboxes so that the mailboxes are kept up to date. If a user disconnects from the network, for example, by moving to an area without Wi-Fi access, the user can continue to access the last available email data.
 
 > [!IMPORTANT]
-> We recommend always using Cached Exchange Mode with an Office 365 account.
+> We recommend always using Cached Exchange Mode with an Office 365 or an Exchange account.
   
 Online Mode works by using information directly from the server, and, as the name implies, it requires a connection. Mailbox data is only cached in memory and never written to disk.
 
@@ -54,7 +54,7 @@ Even when it is configured in Cached Exchange Mode, Outlook 2016 must contact th
 
 Delayed delivery options are client side in cached mode and server side in online mode. So, when you use Cached Exchange Mode, Outlook must be connected and open at the assigned delivery time for the delayed delivery message to be sent.
 
- Outlook 2016 supports running in Cached Exchange Mode in a Remote Desktop Services (RDS), formerly known as Terminal Services, environment that has multiple users. When you configure a computer running RDS to use Cached Exchange Mode, be sure to consider the additional storage space and disk I/O that are required for multiple client access. New Exchange accounts set up on computers running RDS use Online Mode by default. At setup, the user can decide to enable Cached Exchange Mode.
+ Outlook supports running in Cached Exchange Mode in a Remote Desktop Services (RDS), formerly known as Terminal Services, environment that has multiple users. When you configure a computer running RDS to use Cached Exchange Mode, be sure to consider the additional storage space and disk I/O that are required for multiple client access. New Exchange accounts set up on computers running RDS use Online Mode by default. At setup, the user can decide to enable Cached Exchange Mode.
 
 
 ## Planning considerations for Cached Exchange Mode for Outlook 2016
